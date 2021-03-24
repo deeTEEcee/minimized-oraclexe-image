@@ -48,8 +48,9 @@ The test should usually run within 5 seconds (starting up the minimized oracle i
 
 
 ## Usage and Startup Options
-
-The username and password to connect to the database is: ```AOO_TESTS```
+For testing, use the following account info:
+* Username: superuser
+* Password: oracle
 
 The SID is: ```XE```
 
