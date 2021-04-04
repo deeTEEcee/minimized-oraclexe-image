@@ -3,15 +3,15 @@
 	CONNECTION_AVAILABLE=false
 
 	echo "Trying to connect to XE 18C Database with sqlplus."
-        $ORACLE_HOME/bin/sqlplus -S aoo_tests/AOO_TESTS@//localhost:1521/XE <<EOF
-        
+        $ORACLE_HOME/bin/sqlplus -S superuser/oracle@//localhost:1521/XE <<EOF
+
 
 
 
 EOF
 
 	if [ "$?" == "0" ]; then
-		echo "Successfully connected to database with AOO_TESTS"
+		echo "Successfully connected to database with superuser"
 		CONNECTION_AVAILABLE=true
 	fi
 
